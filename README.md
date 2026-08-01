@@ -49,6 +49,8 @@ Then:
 5. Create the GitHub labels `loop-approved`, `loop-changes-requested`, and `needs-human-review`.
 6. Configure at least one required GitHub status check. Without required CI, review escalates to `needs-human-review`.
 
+GitHub may require a paid plan or public repository before branch protection and required checks can be enabled. The validation workflow still runs without branch protection, but `loop-review` must use the human-review fallback because an unprotected check is not merge evidence.
+
 Linear’s GitHub integration is recommended so PR and merge events update issues automatically.
 
 ## Daily rhythm

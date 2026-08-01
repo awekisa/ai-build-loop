@@ -13,7 +13,7 @@ github:
   approved_label: "loop-approved"
   changes_requested_label: "loop-changes-requested"
   human_review_label: "needs-human-review"
-  require_status_checks: true
+  require_status_checks: false
 
 commands:
   install: ""
