@@ -1,0 +1,4 @@
+interface:
+  display_name: "Loop Review"
+  short_description: "Review one PR against its contract"
+  default_prompt: "Use $loop-review to check one pull request against its linked Linear issue."

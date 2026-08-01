@@ -1,0 +1,4 @@
+interface:
+  display_name: "Loop Build"
+  short_description: "Build one approved Linear issue"
+  default_prompt: "Use $loop-build to claim and implement the next approved Linear issue."

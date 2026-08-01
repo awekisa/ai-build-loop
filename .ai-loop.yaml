@@ -1,0 +1,35 @@
+version: 1
+
+linear:
+  team: "SME"
+  ready_label: "agent-ready"
+  blocked_label: "blocked"
+  started_state: "In Progress"
+  review_state: "In Review"
+
+github:
+  repository: "awekisa/ai-build-loop"
+  default_branch: "auto"
+  approved_label: "loop-approved"
+  changes_requested_label: "loop-changes-requested"
+  human_review_label: "needs-human-review"
+  require_status_checks: true
+
+commands:
+  install: ""
+  test: "./scripts/test-loop.sh"
+  lint: "bash -n scripts/install-loop.sh scripts/test-loop.sh"
+  typecheck: "python3 scripts/validate-skills.py"
+  build: ""
+  preview: ""
+
+policy:
+  one_builder_per_linear_team: true
+  max_fix_rounds: 2
+  agent_may_merge: false
+  agent_may_deploy: false
+
+voice:
+  repeat_identifiers_before_mutation: true
+  spec_approval_phrase: "Approve spec ISSUE-ID"
+  merge_by_voice: false
