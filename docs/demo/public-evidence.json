@@ -1,0 +1,50 @@
+{
+  "observed_on": "2026-09-22",
+  "purpose": "Selected public historical evidence, not a fresh downstream test run or full approval audit",
+  "pull_request": {
+    "number": 32,
+    "title": "feat(SME-99): add scoped, revocable agent access tokens",
+    "url": "https://github.com/awekisa/PredictionsProject/pull/32",
+    "headRefOid": "be5db872a8bcc60c7af1bcc971d39bb9d04489cf",
+    "mergeCommit": {
+      "oid": "f541d6f745a2ef97e9a589bfa6b8f82a586bd2a2"
+    },
+    "mergedAt": "2026-09-21T06:37:11Z"
+  },
+  "merge_actor": {
+    "login": "awekisa",
+    "is_bot": false,
+    "limitation": "Account identity does not prove the exact human merge action"
+  },
+  "checks": [
+    {
+      "name": "Backend Tests",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/awekisa/PredictionsProject/actions/runs/35569052700/job/106236617017",
+      "completed_at": "2026-09-21T06:35:25Z"
+    },
+    {
+      "name": "Frontend E2E Tests",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/awekisa/PredictionsProject/actions/runs/35569052700/job/106236616957",
+      "completed_at": "2026-09-21T06:35:59Z"
+    }
+  ],
+  "ci_log_summary": [
+    "Frontend E2E Tests\tUNKNOWN STEP\t2026-09-21T06:35:43.8875239Z ^[[90m   ^[[39m ^[[32m\u2714^[[39m  ^[[32mAll specs passed!^[[39m                        ^[[90m00:35^[[39m       ^[[0m36^[[0m       ^[[32m36^[[39m        ^[[90m-^[[39m        ^[[90m-^[[39m        ^[[90m-^[[39m ^[[90m ^[[39m",
+    "Backend Tests\tUNKNOWN STEP\t2026-09-21T06:35:18.2426456Z Total tests: 63",
+    "Backend Tests\tUNKNOWN STEP\t2026-09-21T06:35:18.2431238Z      Passed: 63"
+  ],
+  "formal_reviews_observed": 0,
+  "loop_review_comments_observed": 0,
+  "unverified": [
+    "Standard exact-issue readiness approval",
+    "Independent loop-review verdict",
+    "Exact human approval and merge action"
+  ],
+  "sources": {
+    "pull_request": "https://api.github.com/repos/awekisa/PredictionsProject/pulls/32",
+    "timeline": "https://api.github.com/repos/awekisa/PredictionsProject/issues/32/timeline",
+    "ci": "https://github.com/awekisa/PredictionsProject/actions/runs/35569052700"
+  }
+}
